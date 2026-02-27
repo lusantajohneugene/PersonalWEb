@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Dream Places to Visit</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #f7f8fc 0%, #e8ecf7 100%);
+  font-family: Tahoma, sans-serif;
+  color: #2f3e46;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 14pt;
+  color: #7b8ab8;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 11pt;
+  color: #2f3e46;
+}
+
+/* PAGE TITLE */
+.page-title {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Georgia, serif;
+  font-size: 24pt;
+  color: #7b8ab8;
+}
+
+/* CATEGORY */
+.category {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 2100px;
+}
+
+.category h2 {
+  font-family: Georgia, serif;
+  color: #7b8ab8;
+  margin-bottom: 25px;
+}
+
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* IMAGE STYLE */
+.gallery img {
+  width: 220px;
+  height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: white;
+  padding: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="logo">Dream Travel Gallery</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="PLACES.html">Bucket List</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<h1 class="page-title">Dream Places to Visit</h1>
+
+<!-- INTERNATIONAL -->
+<div class="category">
+  <h2>International Destinations</h2>
+
+  <img src="IMAGES/DREAMPLACES/InternationalCollage.png" 
+       alt="International Destinations Collage"
+       class="category-top-image" usemap="#DREAMPLACES">
+      <map name="DREAMPLACES">
+      <area shape="rect" coords="443,65,585,195" href="FRANCE.html" target="_blank" alt="France">
+      <area shape="rect" coords="213,99,410,170" href="MOROCCO.html" target="_blank" alt="Morocco">
+      <area shape="rect" coords="1,101,201,240" href="JAPAN.html" target="_blank" alt="Japan">
+      <area shape="circle" coords="23,371,15" href="DALLAS.html" target="_blank" alt="Dallas">
+      <area shape="poly" coords="213,378,232,374,254,364,285,351,292,350,301,344,317,334,326,333,338,333,345,338,349,343,359,334,365,346,371,353,379,355,384,361,395,364,405,366,408,368,407,376,407,384,,407,391,407,395,374,392,359,390,342,389,322,387,305,386,292,384,281,384,269,383,257,382,248,382,235,381,223,380,213,379" href="MountFuji.html" target="_blank" alt="Mount Fuji">
+      <area shape="poly" coords="475,375,474,346,503,337,520,325,498,321,492,295,517,293,517,288,492,279,493,275,524,284,527,295,546,276,570,283,578,281,585,293,613,297,619,274,620,363,603,362,582,354,556,360,553,381,521,396,521,358,527,359,527,362,539,368,532,351,524,346,477,358" href="DUBAI.html" target="_blank" alt="Dubai Skyline">
+      </map>
+
+      <br>
+      <br>
+      <br>
+      <br>
+</div>
+
+<!-- LOCAL -->
+<div class="category">
+  <h2>Local Destinations (Philippines)</h2>
+  <img src="IMAGES/DREAMPLACES/LOCALplaces.png" 
+       alt="Local Destinations Collage"
+       class="category-top-image" usemap="#LOCALPLACES">
+      <map name="LOCALPLACES">
+      <area shape="poly" coords="18,60,19,102,48,108,48,128,68,134,142,130,146,109,167,101,188,102,184,85,162,73,144,45,137,24,120,22,110,15,102,27,79,27,54,55,17,59" href="PALAWAN.html" target="_blank" alt="Palawan">
+      <area shape="poly" coords="209,175,210,208,284,206,382,212,381,201,323,192,323,160,287,148,210,175" href="MtSamat.html" target="_blank" alt="Mt. Samat">
+      <area shape="rect" coords="421,166,563,227" href="BORACAY.html" target="_blank" alt="Boracay">
+      <area shape="rect" coords="71,387,111,438" href="VIGAN.html"  target="_blank" alt="Vigan">
+      <area shape="poly" coords="214,312,216,475,399,426,398,415,278,382,343,357,365,354,365,342,301,333,248,330,246,310,215,311" href="RiceTerraces.html"  target="_blank" alt="Rice Terraces">
+      <area shape="circle" coords="558,339,59" href="SIARGAO.html" target="_blank" alt="Siargao">
+      </map>
+      <br>
+      <br>
+      <br>
+      <br>
+
+</div>
+
+</body>
+</html>
